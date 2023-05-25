@@ -15,13 +15,13 @@ const app = express();
 app.use(express.json());
 const port = 3000;
 
-const mysql_pool = require('mysql2')
+/*const mysql_pool = require('mysql2')
 const pool = mysql_pool.createConnection({
     host: 'localhost',
     user: 'root',
     password: 'Acdcacdc16@',
     database: "xastreprojeto"
-});
+});*/
 
 app.post('/signin', async (req, res) => {
     console.log(req.body);
